@@ -13,8 +13,6 @@ public class GetStartedScreen {
         PageFactory.initElements(new AppiumFieldDecorator(getDriver()), this);
     }
 
-//     Registration scenario is up
-
     @AndroidFindBy(id = "email")
     private AndroidElement emailTxtField;
 
