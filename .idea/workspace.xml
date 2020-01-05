@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b125eb4-1b84-4463-a263-42ffb6de6535" name="Default Changelist" comment="" />
+    <list default="true" id="6b125eb4-1b84-4463-a263-42ffb6de6535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Screen/ContactsScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Tests/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Tests/ContactCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/ApplicationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/appium/Screen/RegistrationScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Screen/RegistrationScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/appium/Tests/RegistrationScenarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Tests/RegistrationScenarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/ScrollUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/ScrollUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/appium/Utils/WaitUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/DataBean/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/DataBean/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/DataBean/UserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/DataBean/UserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Screen/GetStartedScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Screen/GetStartedScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Screen/PickCityScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Screen/PickCityScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Screen/RegistrationScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Screen/RegistrationScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Tests/RegistrationScenarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Tests/RegistrationScenarios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/CommonSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/DriverUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/DriverUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/PropertyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/PropertyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/ScrollUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/ScrollUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/ScrollUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/ScrollUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/WaitUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/appium/Utils/WaitUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +47,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1V6bpRcLLVcKs56VdIKssBwMM4i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/app-build" />
   </component>
   <component name="RecentsManager">
@@ -37,36 +72,65 @@
       <recent name="C:\Users\spasha\IdeaProjects\DemoProject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationScenarios.registartionTest">
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DemoApp" />
+  <component name="RunManager" selected="TestNG.ApplicationTest.test1">
+    <configuration name="ApplicationTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.appium.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.appium.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.appium.Tests.ApplicationTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.appium.Utils.DriverUtils" />
+    <configuration name="C:/Users/spasha/IdeaProjects/DemoProject/config.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.appium.Utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/config.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.appium.Utils.PropertyUtils" />
+    <configuration name="ContactCreationTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.appium.Utils.*" />
+          <option name="PATTERN" value="com.automation.appium.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.appium.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.appium.Tests.ContactCreationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.appium.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.appium.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.appium.Tests.ContactCreationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,31 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationScenarios.registartionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.appium.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.appium.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.appium.Tests.RegistrationScenarios" />
-      <option name="METHOD_NAME" value="registartionTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegistrationScenarios.registartionTest" />
+        <item itemvalue="TestNG.ApplicationTest.test1" />
+        <item itemvalue="TestNG.C:/Users/spasha/IdeaProjects/DemoProject/config.xml" />
+        <item itemvalue="TestNG.ContactCreationTest (1)" />
+        <item itemvalue="TestNG.ContactCreationTest" />
         <item itemvalue="TestNG.RegistrationScenarios" />
-        <item itemvalue="Application.DriverUtils" />
-        <item itemvalue="Application.PropertyUtils" />
-        <item itemvalue="Application.DemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -142,26 +188,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1577586076047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577586076047" />
     <state x="566" y="271" width="416" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577515123060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="271" width="416" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1577515123060" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1577516511076">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1578187561752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577516511076" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1577516511075">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578187561752" />
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1578192048122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577516511075" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1577516511075">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578192048121" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1578192048120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577516511075" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1577516511076">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578192048120" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1578192048118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577516511076" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578192048118" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1578192048120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578192048120" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577498816694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

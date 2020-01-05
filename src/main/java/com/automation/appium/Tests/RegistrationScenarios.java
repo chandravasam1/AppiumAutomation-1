@@ -1,16 +1,19 @@
 package com.automation.appium.Tests;
 
+import com.automation.appium.DataBean.Direction;
 import com.automation.appium.Screen.GetStartedScreen;
 import com.automation.appium.Screen.PickCityScreen;
 import com.automation.appium.Screen.RegistrationScreen;
-import com.automation.appium.Utils.DriverUtils;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.automation.appium.Utils.CommonUtils.rotateDeviceToLandscapeMode;
+import static com.automation.appium.Utils.CommonUtils.rotateDeviceToPotraitMode;
 import static com.automation.appium.Utils.DriverUtils.initDriver;
 import static com.automation.appium.Utils.DriverUtils.tearDown;
+
+import static com.automation.appium.Utils.ScrollUtils.swipeFunction;
 
 public class RegistrationScenarios {
 
@@ -20,7 +23,7 @@ public class RegistrationScenarios {
         initDriver();
     }
 
-    @Test
+    @Test(enabled = false)
     public void registartionTest() {
         PickCityScreen pickCityScreen = new PickCityScreen();
         pickCityScreen.skipCitySelection();
@@ -30,20 +33,24 @@ public class RegistrationScenarios {
 
         RegistrationScreen registrationScreen = new RegistrationScreen();
         registrationScreen.fillRegistrationInfo();
-
-
-
-
     }
 
     @Test
-    public void registartionTest2() {
-        System.out.println("registartionTest2 Method has benn called !!!!");
+    public void swipeDemo() {
+    //RegistrationScreen register = new RegistrationScreen();
+  //    scrollToElement(register.contactName);
+        rotateDeviceToLandscapeMode();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        rotateDeviceToPotraitMode();
     }
 
 
-    @AfterClass
-    public void afterClassMethod() {
-        tearDown();
+//   @AfterClass
+   public void afterClassMethod() {
+     tearDown();
     }
 }

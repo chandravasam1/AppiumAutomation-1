@@ -1,5 +1,6 @@
 package com.automation.appium.Screen;
 
+import com.automation.appium.DataBean.UserDetails;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -13,6 +14,9 @@ public class RegistrationScreen {
         PageFactory.initElements(new AppiumFieldDecorator(getDriver()), this);
 
     }
+
+    @AndroidFindBy(accessibility = "Ayesha")
+    public AndroidElement contactName;
 
     @AndroidFindBy (id="passwordSignUp")
     private AndroidElement passwordField;
@@ -32,11 +36,16 @@ public class RegistrationScreen {
     @AndroidFindBy (id = "signUpButton")
     private AndroidElement signUpBtn;
 
+
+
     public void fillRegistrationInfo() {
-        passwordField.sendKeys(RandomStringUtils.randomAlphanumeric(8));
-        confirmPasswordField.sendKeys(RandomStringUtils.randomAlphanumeric(8));
-        firstNamefield.sendKeys(RandomStringUtils.randomAlphabetic(6));
-        lastNameField.sendKeys(RandomStringUtils.randomAlphabetic(6));
+        UserDetails userDetails = new UserDetails();
+        userDetails.generateRandomData();
+
+        passwordField.sendKeys(userDetails.getPassword());
+        confirmPasswordField.sendKeys(userDetails.getPassword());
+        firstNamefield.sendKeys(userDetails.getFirstName());
+        lastNameField.sendKeys(userDetails.getLastName());
         checkbox.click();
         signUpBtn.click();
     }

@@ -18,9 +18,9 @@ public class DriverUtils {
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, getPropertyByKey("device.name"));
         caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 20);
         caps.setCapability("autoGrantPermissions", true);
-        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + getPropertyByKey("application.path"));
-//        caps.setCapability("appPackage", getPropertyByKey("app.package"));
-//        caps.setCapability("appActivity", getPropertyByKey("app.activity"));
+//        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + getPropertyByKey("application.path"));
+        caps.setCapability("appPackage", getPropertyByKey("app.package"));
+        caps.setCapability("appActivity", getPropertyByKey("app.activity"));
         try {
             URL remoteUrl = new URL("http://127.0.0.1:4723/wd/hub");
             driver = new AndroidDriver<>(remoteUrl, caps);
