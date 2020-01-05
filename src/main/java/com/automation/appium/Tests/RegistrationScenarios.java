@@ -8,8 +8,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static com.automation.appium.Utils.CommonUtils.rotateDeviceToLandscapeMode;
+import static com.automation.appium.Utils.CommonUtils.rotateDeviceToPotraitMode;
 import static com.automation.appium.Utils.DriverUtils.initDriver;
 import static com.automation.appium.Utils.DriverUtils.tearDown;
+
 import static com.automation.appium.Utils.ScrollUtils.swipeFunction;
 
 public class RegistrationScenarios {
@@ -34,13 +37,20 @@ public class RegistrationScenarios {
 
     @Test
     public void swipeDemo() {
-        swipeFunction(Direction.LEFT);
-                swipeFunction(Direction.RIGHT);
+    //RegistrationScreen register = new RegistrationScreen();
+  //    scrollToElement(register.contactName);
+        rotateDeviceToLandscapeMode();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        rotateDeviceToPotraitMode();
     }
 
 
-   @AfterClass
-    public void afterClassMethod() {
-        tearDown();
+//   @AfterClass
+   public void afterClassMethod() {
+     tearDown();
     }
 }

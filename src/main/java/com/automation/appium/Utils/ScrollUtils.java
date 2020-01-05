@@ -3,6 +3,7 @@ package com.automation.appium.Utils;
 import com.automation.appium.DataBean.Direction;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
@@ -67,12 +68,38 @@ public class ScrollUtils {
                         .moveTo(point(endX, startY))
                         .release().perform();
                 break;
+
         }
-
-        // scroll up
-
 
     }
 
+    public static void scrollToElementAndClick(AndroidElement element, int... noOfSwipes) {
 
+        int noOfSwiprCount = noOfSwipes.length>0? noOfSwipes[0] : 20;
+        while (noOfSwiprCount > 0) {
+            try {
+                if(element.isDisplayed()){
+                    break;
+                }
+            } catch (Exception e) {
+                swipeFunction(Direction.UP);
+            }
+            noOfSwiprCount--;
+        }
+        element.click();
+    }
+//Ternory operator
+    //Variable Argument
+    public static void main(String[] args) {
+        int a=8;
+        if(a>5) {
+            a=9;
+        } else {
+            a=0;
+        }
+
+        int result = a>5 ? 9 : 0;
+        System.out.println(a);
+        System.out.println(result);
+    }
 }

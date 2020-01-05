@@ -29,7 +29,7 @@ public class WaitUtils {
         }
     }
 
-    public void waitForElementToBeClickable(AndroidElement element) {
+    public static void waitForElementToBeClickable(AndroidElement element) {
         try {
             wait.until(ExpectedConditions.elementToBeClickable(element));
         } catch (Exception e) {

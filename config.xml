@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Appium java automation" verbose="10">
+    <listeners>
+        <!--<listener class-name="com.automation.listeners.ExtentReporterNG"></listener>-->
+    </listeners>
+    <test name="all Tests">
+        <packages>
+            <package name="com.automation.appium.Tests"></package>
+        </packages>
+    </test>
+</suite>

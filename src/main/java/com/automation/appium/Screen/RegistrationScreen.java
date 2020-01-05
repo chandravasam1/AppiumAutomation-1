@@ -15,6 +15,9 @@ public class RegistrationScreen {
 
     }
 
+    @AndroidFindBy(accessibility = "Ayesha")
+    public AndroidElement contactName;
+
     @AndroidFindBy (id="passwordSignUp")
     private AndroidElement passwordField;
 
