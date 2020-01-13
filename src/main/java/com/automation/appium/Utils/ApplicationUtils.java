@@ -17,9 +17,14 @@ public class ApplicationUtils {
     }
 
     public static void switchApplication(String  appPackage, String appActivity){
-
         Activity activity = new Activity(appPackage, appActivity);
         getDriver().startActivity(activity);
 
+    }
+
+    public static  void appUtilsForNoti() {
+        getDriver().lockDevice(Duration.ofSeconds(2));
+        getDriver().unlockDevice();
+        getDriver().openNotifications();
     }
 }

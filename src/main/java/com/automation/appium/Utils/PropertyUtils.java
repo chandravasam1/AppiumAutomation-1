@@ -18,7 +18,7 @@ public class PropertyUtils {
     }
 
     public static String getPropertyByKey(String key) {
-return prop.getProperty(key);
+        return prop.getProperty(key);
     }
 
     public static void main(String[] args) {
