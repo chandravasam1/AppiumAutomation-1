@@ -6,6 +6,7 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static com.automation.appium.Utils.ApplicationUtils.appUtilsForNoti;
 import static com.automation.appium.Utils.DriverUtils.getDriver;
 import static com.automation.appium.Utils.DriverUtils.initDriver;
 import static com.automation.appium.Utils.ScrollUtils.scrollToElementAndClick;
@@ -18,6 +19,12 @@ public class ContactCreationTest {
 
 
     @Test
+    public void demotest(){
+        appUtilsForNoti();
+
+
+    }
+//    @Test
     public void testadditionOfContact() {
         ContactsScreen contactsScreen = new ContactsScreen();
         contactsScreen.createContact();

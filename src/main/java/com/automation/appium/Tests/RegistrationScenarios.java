@@ -35,7 +35,7 @@ public class RegistrationScenarios {
         registrationScreen.fillRegistrationInfo();
     }
 
-    @Test
+ //   @Test
     public void swipeDemo() {
     //RegistrationScreen register = new RegistrationScreen();
   //    scrollToElement(register.contactName);

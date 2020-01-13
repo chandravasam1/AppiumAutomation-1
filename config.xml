@@ -1,11 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Appium java automation" verbose="10">
     <listeners>
-        <!--<listener class-name="com.automation.listeners.ExtentReporterNG"></listener>-->
+        <listener class-name="com.automation.appium.listeners.Screenshots"></listener>
     </listeners>
     <test name="all Tests">
-        <packages>
-            <package name="com.automation.appium.Tests"></package>
-        </packages>
+<!--        <packages>-->
+<!--            <package name="com.automation.appium.Tests"></package>-->
+<!--        </packages>-->
+        <classes>
+            <class name="com.automation.appium.Tests.ContactCreationTest"></class>
+        </classes>
     </test>
 </suite>

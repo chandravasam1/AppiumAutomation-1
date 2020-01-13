@@ -14,7 +14,7 @@ public class ApplicationTest {
     public void beforeClassMethod() {
         initDriver();
     }
-    @Test
+  //  @Test
     public void test1() {
         backGroundApplication();
         forGroundMethod();
