@@ -3,6 +3,6 @@ node () {
     git 'https://github.com/asifapasha/AppiumAutomation.git'
   }
   stage('Run appium test') {
-  bat 'mvn test'
+  bat 'mvn clean test'
   }
 }
