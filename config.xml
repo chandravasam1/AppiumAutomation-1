@@ -1,14 +1,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Appium java automation" verbose="10">
+<suite name="Appium java automation" verbose="10" >
     <listeners>
         <listener class-name="com.automation.appium.listeners.Screenshots"></listener>
     </listeners>
-    <test name="all Tests">
-<!--        <packages>-->
-<!--            <package name="com.automation.appium.Tests"></package>-->
-<!--        </packages>-->
+    <test name="all Tests -1">
+<!--        <parameter name="platform" value="Android 8.1"></parameter>-->
+<!--        <parameter name="systemPort" value="8200"></parameter>-->
+<!--        <parameter name="udid" value="emulator-5554"></parameter>-->
+
         <classes>
             <class name="com.automation.appium.Tests.ContactCreationTest"></class>
         </classes>
     </test>
+
+<!--    <test name="all Tests-2">-->
+<!--        <parameter name="platform" value="Android 8.1"></parameter>-->
+<!--        <parameter name="systemPort" value="8200"></parameter>-->
+<!--        <parameter name="idid" value="emulator-5554"></parameter>-->
+
+
+<!--        <classes>-->
+<!--            <class name="com.automation.appium.Tests.ContactCreationTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

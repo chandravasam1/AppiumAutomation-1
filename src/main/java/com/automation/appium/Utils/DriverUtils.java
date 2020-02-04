@@ -18,8 +18,6 @@ public class DriverUtils {
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, getPropertyByKey("device.name"));
         caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 20);
         caps.setCapability("autoGrantPermissions", true);
-//        caps.setCapability("browserName", "chrome");
-//        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + getPropertyByKey("application.path"));
         caps.setCapability("appPackage", getPropertyByKey("app.package"));
         caps.setCapability("appActivity", getPropertyByKey("app.activity"));
         try {

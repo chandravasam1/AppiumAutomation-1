@@ -6,7 +6,8 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.automation.appium.Utils.ApplicationUtils.appUtilsForNoti;
+
+import static com.automation.appium.Utils.ApplicationUtils.appUtilsForNotification;
 import static com.automation.appium.Utils.DriverUtils.getDriver;
 import static com.automation.appium.Utils.DriverUtils.initDriver;
 import static com.automation.appium.Utils.ScrollUtils.scrollToElementAndClick;
@@ -18,13 +19,15 @@ public class ContactCreationTest {
     }
 
 
-    @Test
-    public void demotest(){
-        appUtilsForNoti();
+   // @Test
+    public void demotest() {
+        appUtilsForNotification();
+        getDriver().pressKey(new KeyEvent(AndroidKey.BACK));
 
 
     }
-//    @Test
+
+    @Test
     public void testadditionOfContact() {
         ContactsScreen contactsScreen = new ContactsScreen();
         contactsScreen.createContact();
@@ -34,10 +37,10 @@ public class ContactCreationTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        getDriver().pressKey(new KeyEvent(AndroidKey.BACK));
+       // getDriver().pressKey(new KeyEvent(AndroidKey.BACK));
         scrollToElementAndClick(contactsScreen.contactName);
-
         contactsScreen.deleteContact();
+
 
     }
 }

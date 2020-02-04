@@ -22,7 +22,7 @@ public class ApplicationUtils {
 
     }
 
-    public static  void appUtilsForNoti() {
+    public static  void appUtilsForNotification() {
         getDriver().lockDevice(Duration.ofSeconds(2));
         getDriver().unlockDevice();
         getDriver().openNotifications();
