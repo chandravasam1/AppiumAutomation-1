@@ -1,12 +1,11 @@
+/*
 package com.automation.appium.listeners;
-
 import org.apache.commons.io.FileUtils;
 import org.aspectj.util.FileUtil;
 import org.openqa.selenium.OutputType;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -15,7 +14,6 @@ import static com.automation.appium.Utils.DriverUtils.getDriver;
 public class Screenshots implements ITestListener{
     @Override
     public void onTestStart(ITestResult iTestResult) {
-
     }
 
     @Override
@@ -55,3 +53,4 @@ public class Screenshots implements ITestListener{
     }
 
 }
+*/

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Native Apps Suites" parallel="tests">
+
+
+    <test name="Sony">
+        <parameter name="udid" value="c9827da0"/>
+        <classes>
+            <class name="com.automation.appium.Tests.Regression"/>
+
+        </classes>
+    </test>
+</suite>

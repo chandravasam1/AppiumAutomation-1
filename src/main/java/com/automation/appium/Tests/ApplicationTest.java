@@ -11,10 +11,10 @@ public class ApplicationTest {
 
 
     @BeforeClass
-    public void beforeClassMethod() {
+    public void beforeClassMethod() throws  Exception{
         initDriver();
     }
-  //  @Test
+  @Test
     public void test1() {
         backGroundApplication();
         forGroundMethod();

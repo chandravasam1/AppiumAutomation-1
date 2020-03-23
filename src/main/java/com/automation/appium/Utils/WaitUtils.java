@@ -10,7 +10,7 @@ import static com.automation.appium.Utils.DriverUtils.getDriver;
 
 public class WaitUtils {
 
-    static Long timeout = Long.parseLong("30");
+    static Long timeout = Long.parseLong("10");
     static WebDriverWait wait = new WebDriverWait((WebDriver) new AppiumFieldDecorator(getDriver()), timeout);
 
     public static void waitForVisible(AndroidElement element) {

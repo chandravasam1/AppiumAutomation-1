@@ -10,7 +10,7 @@ public class PropertyUtils {
 
     public static void loadProperties() {
         try {
-            prop.load(new FileInputStream(new File(System.getProperty("user.dir") + "\\src\\main\\resources\\config.properties")));
+            prop.load(new FileInputStream(new File(System.getProperty("user.dir") + "//src//main//resources//config.properties")));
             System.out.println(prop);
         } catch (IOException e) {
             e.printStackTrace();

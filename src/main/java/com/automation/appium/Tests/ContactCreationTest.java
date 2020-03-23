@@ -1,32 +1,29 @@
 package com.automation.appium.Tests;
 
-import com.automation.appium.Screen.ContactsScreen;
-import io.appium.java_client.android.nativekey.AndroidKey;
-import io.appium.java_client.android.nativekey.KeyEvent;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.automation.appium.Utils.ApplicationUtils.appUtilsForNoti;
-import static com.automation.appium.Utils.DriverUtils.getDriver;
-import static com.automation.appium.Utils.DriverUtils.initDriver;
-import static com.automation.appium.Utils.ScrollUtils.scrollToElementAndClick;
+import static com.automation.appium.Utils.DriverUtils.*;
 
 public class ContactCreationTest {
+
     @BeforeClass
-    public void beforeClassMethod() {
+    public void beforeClassMethod() throws Exception {
         initDriver();
     }
 
 
     @Test
     public void demotest(){
-        appUtilsForNoti();
+   //     appUtilsForNoti();
 
 
     }
-//    @Test
+   /* @Test(enabled = false)
     public void testadditionOfContact() {
         ContactsScreen contactsScreen = new ContactsScreen();
+
         contactsScreen.createContact();
 
         try {
@@ -39,5 +36,10 @@ public class ContactCreationTest {
 
         contactsScreen.deleteContact();
 
+    }
+*/
+    @AfterClass
+    public void stopdriver() throws Exception {
+        tearDown();
     }
 }

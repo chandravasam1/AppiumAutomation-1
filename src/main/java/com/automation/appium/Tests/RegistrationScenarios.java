@@ -1,3 +1,4 @@
+/*
 package com.automation.appium.Tests;
 
 import com.automation.appium.DataBean.Direction;
@@ -18,8 +19,9 @@ import static com.automation.appium.Utils.ScrollUtils.swipeFunction;
 public class RegistrationScenarios {
 
 
+   @Parameters({"udid"})
     @BeforeClass
-    public void beforeClassMethod() {
+    public void beforeClassMethod() throws Exception {
         initDriver();
     }
 
@@ -41,7 +43,9 @@ public class RegistrationScenarios {
   //    scrollToElement(register.contactName);
         rotateDeviceToLandscapeMode();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(5000);*/
+/*//*
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -50,7 +54,8 @@ public class RegistrationScenarios {
 
 
 //   @AfterClass
-   public void afterClassMethod() {
+   public void afterClassMethod() throws Exception {
      tearDown();
     }
 }
+*/
